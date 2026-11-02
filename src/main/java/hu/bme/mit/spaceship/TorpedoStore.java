@@ -28,6 +28,8 @@ public class TorpedoStore {
     }
   }
 
+  // here is new documentation for the fire method
+
   public boolean fire(int numberOfTorpedos){
     if(numberOfTorpedos < 1 || numberOfTorpedos > this.torpedoCount){
       throw new IllegalArgumentException("numberOfTorpedos");
